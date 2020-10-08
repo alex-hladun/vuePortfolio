@@ -1,5 +1,5 @@
 <template>
-  <main :class="styles.container" id="about">
+  <main :class="styles.container">
 
   <h1 :class="styles.header"><u>About Me</u></h1>
 

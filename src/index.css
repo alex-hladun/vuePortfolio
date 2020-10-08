@@ -17,6 +17,17 @@ a:hover{
 
 }
 
+.scroll-marker{
+  background-color: rgb(101, 47, 162);
+  height: .8rem;
+  width: .8rem;
+  left: 6.5rem;
+  top: 3.8rem;
+  z-index: 2;
+  border-radius: 100%;
+  position: fixed;
+}
+
 .item {
   /* Set the minimum height of the items to be the same as the height of the scroll-snap-container.*/
   min-height: 100%;
@@ -44,7 +55,7 @@ a:hover{
   top:5rem;
   left: 50%;
   background-color: white;
-  z-index: 2;
+  z-index: 4;
 }
 
 .logo:hover{
