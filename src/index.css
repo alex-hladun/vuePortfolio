@@ -21,7 +21,7 @@ a:hover{
   background-color: rgb(101, 47, 162);
   height: .8rem;
   width: .8rem;
-  left: 6.5rem;
+  /* left: 6.5rem; */
   top: 3.8rem;
   z-index: 2;
   border-radius: 100%;
@@ -78,9 +78,11 @@ a:hover{
   background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 75%, rgba(255,255,255,0.2527714067278287) 100%);
   transform: translateX(-50%);
   border-top: 2px solid ;
-  border-bottom: 2px solid ;
-  /* border-color: rgb(0,0,0,0.3); */
-  border-color: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 15%, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 85%, rgba(255,255,255,0.2527714067278287) 70%);
+  border-bottom: 2px solid;
+  /* border-bottom: 2px solid ; */
+  border-color: rgb(0,0,0);
+  /* border-image-source: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(255,255,255,1) 100%); */
+  border-image-slice: 1;
   z-index: 1;
 }
 
@@ -96,6 +98,7 @@ a:hover{
   border: .3em solid black;
   margin: 10rem 6rem;
   padding: 2rem;
+  padding-top: 10rem;
   /* max-width: 70vw; */
   background-image: url('./assets/cooke.JPG');
   height: 60vh;
@@ -103,7 +106,6 @@ a:hover{
 
   display: flex;
   flex-direction: column;
-  padding-top: 12rem;
   justify-content: flex-start;
 }
 
@@ -121,8 +123,10 @@ a:hover{
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
   .container{
-    margin: .5rem;
-    padding: 1rem;
+    margin: 10% 1rem 1% 1rem;
+    padding: 3rem 0rem 0rem 0rem;
+    padding-top: 3rem;
+    height: 70vh;
   }
   
   .logo{
@@ -130,31 +134,69 @@ a:hover{
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    top: .5%;
-    border: 3px solid black;
-    width: 7rem;
-    height: 7rem;
-    font-size: 2rem;
+    top: 1%;
+    border: 2px solid black;
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.3rem;
   }
+
+  .menubar{
+    /* height: 5rem; */
+    width: 80%;
+    top:2%;
+    border-top: 2px solid ;
+    border-bottom: 2px solid ;
+
+  }
+
+  .menu-item{
+    font-size: 1rem;
+  }
+  
+  .menu-spacer{
+    width: 4rem;
+  }
+
+
+.head1{
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.head2{
+  font-size: 1.5rem;
+  color: white;
+}
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
-  .container{
-    margin: .2rem;
-    padding: 1rem;
+  .menubar{
+    height: 3rem;
+    width: 80%;
+    top:2%;
+    border-top: 2px solid ;
+    border-bottom: 2px solid ;
   }
 
-  .logo{
-    /* align-self: center; */
+  .menu-item{
+    font-size: .8rem;
+  }
+  
+  .menu-spacer{
+    width: 4rem;
+  }
+
+  .scroll-marker{
+    background-color: rgb(101, 47, 162);
+    height: .5rem;
+    width: .5rem;
+    top: 2.2rem;
+    z-index: 2;
+    border-radius: 100%;
     position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 3%;
-    border: 3px solid black;
-    width: 5rem;
-    height: 5rem;
-    font-size: 2rem;
   }
 
 }

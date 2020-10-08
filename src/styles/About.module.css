@@ -14,13 +14,12 @@ margin: 2rem;
 width: 50%;
 align-self: center;
 text-align: justify;
-font-size: x-large;
-
+font-size: 1.5rem;
 }
 
 .container{
   /* border: .2em solid black; */
-  margin: 18rem 6rem;
+  margin: 16rem 6rem;
   padding: 2rem;
 display: flex;
 flex-direction: column;
@@ -30,12 +29,19 @@ align-items: center;
 
 @media only screen and (max-width : 768px) {
   .container{
-    margin: .5rem;
-    padding: 1rem;
+    margin: 20% .2rem 10% .2rem;
+    padding: 0rem;
   }
 
   .text{
     width: 80%;
+    font-size: 1rem;
+  }
+  
+  .pic{
+margin: .2rem;
+max-width: 90%;
+height: 15rem;
   }
   
   
@@ -43,13 +49,5 @@ align-items: center;
 
 
 @media screen and (max-width: 480) {
-  .container{
-    margin: 2rem .2rem;
-    padding: 1rem;
-  }
 
-    .text{
-      width: 80%;
-
-    }
 }
