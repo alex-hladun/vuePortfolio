@@ -1,0 +1,71 @@
+.logo{
+  color: rgb(0, 0, 0);
+  border-radius: 100%;
+  border: 3px solid black;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Kalam', cursive;
+  font-size: 4rem;
+  position: relative;
+  top: -7rem;
+  /* left: -7rem; */
+  background-color: white;
+  z-index: 2;
+
+}
+
+.container{
+  border: .3em solid black;
+  margin: 10rem 6rem;
+  padding: 2rem;
+  /* max-width: 70vw; */
+  background-image: url('../assets/cooke.JPG');
+  height: 70vh;
+  background-size: cover;
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .container{
+    margin: .5rem;
+    padding: 1rem;
+  }
+  
+  .logo{
+    /* align-self: center; */
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: .5%;
+    border: 3px solid black;
+    width: 7rem;
+    height: 7rem;
+    font-size: 2rem;
+  }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+  .container{
+    margin: .2rem;
+    padding: 1rem;
+  }
+
+  .logo{
+    /* align-self: center; */
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3%;
+    border: 3px solid black;
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+  }
+
+}

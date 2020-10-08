@@ -1,0 +1,149 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+a{
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+a:hover{
+  color: rgb(197, 174, 223);
+
+}
+
+.item {
+  /* Set the minimum height of the items to be the same as the height of the scroll-snap-container.*/
+  min-height: 100%;
+}
+
+.scroll-snap-container {
+  height: 100%;
+  width: 100%;
+}
+
+.logo{
+  color: rgb(0, 0, 0);
+  border-radius: 100%;
+  border: 3px solid black;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: 'Gruppo', cursive;
+  font-size: 4rem;
+  position: fixed;
+  transform: translateX(-50%);
+  top:5rem;
+  left: 50%;
+  background-color: white;
+  z-index: 2;
+}
+
+.logo:hover{
+  background-color: rgb(197, 174, 223);
+
+}
+
+.menubar{
+  height: 5rem;
+  width: 60%;
+  position: fixed;
+  top:7.5rem;
+  left: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 75%, rgba(255,255,255,0.2527714067278287) 100%);
+  transform: translateX(-50%);
+  border-top: 2px solid ;
+  border-bottom: 2px solid ;
+  /* border-color: rgb(0,0,0,0.3); */
+  border-color: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 15%, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 85%, rgba(255,255,255,0.2527714067278287) 70%);
+  z-index: 1;
+}
+
+.menu-item{
+  font-size: 2rem;
+}
+
+.menu-spacer{
+  width: 8rem;
+}
+
+.container{
+  border: .3em solid black;
+  margin: 10rem 6rem;
+  padding: 2rem;
+  /* max-width: 70vw; */
+  background-image: url('./assets/cooke.JPG');
+  height: 60vh;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 12rem;
+  justify-content: flex-start;
+}
+
+.head1{
+  font-size: 5rem;
+  color: white;
+}
+
+.head2{
+  font-size: 3rem;
+  color: white;
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .container{
+    margin: .5rem;
+    padding: 1rem;
+  }
+  
+  .logo{
+    /* align-self: center; */
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: .5%;
+    border: 3px solid black;
+    width: 7rem;
+    height: 7rem;
+    font-size: 2rem;
+  }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+  .container{
+    margin: .2rem;
+    padding: 1rem;
+  }
+
+  .logo{
+    /* align-self: center; */
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3%;
+    border: 3px solid black;
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+  }
+
+}
