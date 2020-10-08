@@ -2,8 +2,7 @@
   <!-- <img :class="styles.pic" alt="Alex Hladun" src="../assets/prof2.jpeg" /> -->
   <div :class="styles.projHeader"><u>{{title}}</u></div>
   <p :class="styles.projText">
-    {{description}}
-    </p>
+    <span v-html="description"></span></p>
 </template>
 
 <script>
@@ -17,7 +16,6 @@ export default {
   },
   data() {
     return {
-      count: 0,
       styles
     }
   }

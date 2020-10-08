@@ -43,6 +43,7 @@ import { ref, onMounted, onUnmounted } from "vue";
 import gsap from "./scrollTrigger";
 import VueScrollSnap from "vue-scroll-snap";
 import router from "./router";
+import Project from './components/Project.vue'
 
 export default {
   name: "App",
@@ -53,6 +54,7 @@ export default {
     Projects,
     Skills,
     Connect,
+    Project
   },
   setup() {
     // const home = ref(null);
