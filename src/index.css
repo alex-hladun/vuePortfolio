@@ -103,12 +103,12 @@ a:hover{
   padding-top: 10rem;
   /* max-width: 70vw; */
   background-image: url('./assets/cooke.JPG');
-  height: 70vh;
+  height: 65vh;
   background-size: cover;
 
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .homecontainer{
@@ -148,6 +148,7 @@ a:hover{
 
   .homecontainer{
     margin-top: 5vh;
+    margin-bottom: 4vh;
   }
 
   .menubar{

@@ -25,6 +25,9 @@ const projList = [{
 },{
   title: 'APS Drones',
   description: 'A blazing-fast SSR website built for a customer using Next.js. Has a dashboard with full authentication and user-specific project details. (<a href="https://apsdrones.ca/"><b><u>Deployed</u></b></a>)'
+},{
+  title: 'BlackJackTV',
+  description: 'A blackjack game for AndroidTV written in Kotlin. Includes animations, and the ability to double and split. Needs to be deployed to Google Play. (<a href="https://github.com/alex-hladun/BlackJackAndroid"><b><u>Git</u></b></a>)'
 }]
 
 export default {

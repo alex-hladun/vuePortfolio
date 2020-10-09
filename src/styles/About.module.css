@@ -6,24 +6,55 @@
 
 .projHeader{
 font-size: 3vh;
-margin-top: 2vh;
+margin-top: 1vh;
 }
 
+.skillsHeader{
+font-size: 3vh;
+margin-top: 3vh;
+}
+
+.skillsText{
+font-size: 2vh;
+margin: .4vh 5vw;
+text-align: center;
+}
 .projText{
 font-size: 2vh;
-margin: .1vh 2vw;
+margin: .4vh 5vw;
 text-align: justify;
 }
 
 .pic{
-margin: 2rem;
+margin: 4vh 2vh;
   border: .3rem solid black;
   border-radius: 100%;
-  max-width: 30%;
+  max-width: 30vw;
+}
+
+.logo{
+  width: 20vh;
+  margin: 2vh;
+  height: 20vh;
+}
+
+.iconContainer{
+  /* margin-top: 20vh; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* width: 80%; */
+  height: 70vh;
+}
+
+.logo:hover{
+  fill:  rgb(150, 83, 227)
 }
 
 .text{
-width: 50%;
+width: 70%;
 align-self: center;
 text-align: justify;
 font-size: 2vh;
@@ -41,11 +72,20 @@ align-items: center;
 
 
 
+
 @media only screen and (max-width : 768px) {
   .container{
-    margin: 12vh .2vw 0 .2vw;
+    margin: 11vh .2vw 0 .2vw;
     padding: 0rem;
   }
+
+.logo{
+  margin: 5vh;
+  max-width: 10vh;
+  /* height: 10vw; */
+
+}
+
 
   .text{
     width: 80%;
@@ -53,7 +93,7 @@ align-items: center;
   }
   
   .pic{
-margin: .2rem;
+/* margin: .2rem; */
 max-width: 90%;
 height: 15rem;
   }
@@ -63,5 +103,10 @@ height: 15rem;
 
 
 @media screen and (max-width: 480) {
-
+  .logo{
+    margin: 0vh;
+    width: 30%;
+    height: 30%;
+  
+  }
 }
