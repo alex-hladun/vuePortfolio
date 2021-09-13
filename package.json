@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "aws s3 sync ./dist/ s3://hladun-site"
+    "deploy": "aws s3 sync ./dist/ s3://alexhladun.me"
   },
   "dependencies": {
     "gsap": "^3.5.1",

@@ -34,7 +34,6 @@ export default {
   name: 'Projects',
   props: {
     msg: String,
-    projList: Array
   },
   components: {
     Project
