@@ -23,12 +23,12 @@ const projList = [
   {
     title: "battleShipReact",
     description:
-      'An online battleship clone. Play against your friends or the computer! Made with React, Redux, TypeScript, Express and Websockets. (<a href="https://alex-battleship.herokuapp.com/"><b><u>Deployed</u></b></a> / <a href="https://github.com/alex-hladun/battleShipReact"><b><u>Git</b></u>)'
+      'An online battleship clone. Play against your friends or the computer! Made with React, Redux, TypeScript, Express and Websockets. (<a href="https://github.com/alex-hladun/battleShipReact"><b><u>Git</b></u>)'
   },
   {
     title: "debatR",
     description:
-      'A live video-chat debating app where users can debate over topics and score points for influencing other users. Uses React, Node, Express, Websockets, GitHub oAuth and WebRTC. (<a href="https://debatr-app.herokuapp.com/"><b><u>Deployed</u></b></a> / <a href="https://github.com/alex-hladun/DEBATR"><b><u>Git</b></u>)'
+      'A live video-chat debating app where users can debate over topics and score points for influencing other users. Uses React, Node, Express, Websockets, GitHub oAuth and WebRTC. (<a href="https://github.com/alex-hladun/DEBATR"><b><u>Git</b></u>)'
   },
   {
     title: "APS Drones",

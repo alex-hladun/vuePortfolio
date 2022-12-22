@@ -6,8 +6,8 @@
 
     <p :class="styles.text">
       Hello! I am a Full Stack developer from Calgary, Alberta with a background
-      in Oil and Gas. I love all things technology, software dev, and problem
-      solving! (also golf)
+      in Oil and Gas. I love all things technology and software dev, and have a
+      proven record problem-solving complex solutions! (I also love golf)
     </p>
   </main>
 </template>
