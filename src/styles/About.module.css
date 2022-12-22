@@ -1,44 +1,44 @@
-.header{
+.header {
   /* font-size: large; */
   color: black;
   margin: 0vh;
 }
 
-.projHeader{
-font-size: 3vh;
-margin-top: 1vh;
+.projHeader {
+  font-size: 3vh;
+  margin-top: 1vh;
 }
 
-.skillsHeader{
-font-size: 3vh;
-margin-top: 3vh;
+.skillsHeader {
+  font-size: 3vh;
+  margin-top: 3vh;
 }
 
-.skillsText{
-font-size: 2vh;
-margin: .4vh 5vw;
-text-align: center;
+.skillsText {
+  font-size: 2vh;
+  margin: 0.4vh 5vw;
+  text-align: center;
 }
-.projText{
-font-size: 2vh;
-margin: .4vh 5vw;
-text-align: justify;
+.projText {
+  font-size: 2vh;
+  margin: 0.4vh 5vw;
+  text-align: justify;
 }
 
-.pic{
-margin: 4vh 2vh;
-  border: .3rem solid black;
+.pic {
+  margin: 4vh 2vh;
+  border: 0.3rem solid black;
   border-radius: 100%;
   max-width: 30vw;
 }
 
-.logo{
+.logo {
   width: 20vh;
   margin: 2vh;
   height: 20vh;
 }
 
-.iconContainer{
+.iconContainer {
   /* margin-top: 20vh; */
   display: flex;
   flex-direction: row;
@@ -49,64 +49,54 @@ margin: 4vh 2vh;
   height: 70vh;
 }
 
-.logo:hover{
-  fill:  rgb(150, 83, 227)
+.logo:hover {
+  fill: rgb(150, 83, 227);
 }
 
-.text{
-width: 70%;
-align-self: center;
-text-align: justify;
-font-size: 2vh;
+.text {
+  width: 70%;
+  align-self: center;
+  text-align: justify;
+  font-size: 2vh;
 }
 
-.container{
+.container {
   /* border: .2em solid black; */
-  margin: 12vh 6rem;
+  margin: 200px 25px;
   padding: 2rem;
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-height: 70vh;
 }
 
-
-
-
-@media only screen and (max-width : 768px) {
-  .container{
-    margin: 11vh .2vw 0 .2vw;
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: 100px 25px 50px 25px;
     padding: 0rem;
   }
 
-.logo{
-  margin: 5vh;
-  max-width: 10vh;
-  /* height: 10vw; */
+  .logo {
+    margin: 5vh;
+    max-width: 10vh;
+  }
 
-}
-
-
-  .text{
+  .text {
     width: 80%;
     font-size: 1rem;
   }
-  
-  .pic{
-/* margin: .2rem; */
-max-width: 90%;
-height: 15rem;
+
+  .pic {
+    /* margin: .2rem; */
+    max-width: 90%;
+    height: 15rem;
   }
-  
-  
 }
 
-
 @media screen and (max-width: 480) {
-  .logo{
+  .logo {
     margin: 0vh;
     width: 30%;
     height: 30%;
-  
   }
 }
